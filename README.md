@@ -14,7 +14,7 @@ This project focuses on:
 ## 🎥 Video PoC
 
 <p align="center">
-  <img src="https://private-user-images.githubusercontent.com/158517938/523478299-d1d86d72-39cb-4af8-9dca-611a0cad9ef7.gif" alt="react2shellpoc demo" />
+  <img src="[https://private-user-images.githubusercontent.com/158517938/523478299-d1d86d72-39cb-4af8-9dca-611a0cad9ef7.gif](https://private-user-images.githubusercontent.com/158517938/523478299-d1d86d72-39cb-4af8-9dca-611a0cad9ef7.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY3OTIyMTksIm5iZiI6MTc2Njc5MTkxOSwicGF0aCI6Ii8xNTg1MTc5MzgvNTIzNDc4Mjk5LWQxZDg2ZDcyLTM5Y2ItNGFmOC05ZGNhLTYxMWEwY2FkOWVmNy5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIyNlQyMzMxNTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kNTlhNzUxYmI0YmI3YzJlZGFmYTQ1MTliZGZlNzgyZDJhMWVkZTE5ODQ2ZGYyOTE3ZGVlNmI1NjcyNmYwNGE0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.PJVZ74RqlMMZgYgHkn1VEde8hyjEsiyTBM3fBI8Fk9I)" alt="react2shellpoc demo" />
 </p>
 
 ---
