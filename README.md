@@ -9,15 +9,6 @@ This project focuses on:
 - 🧱 Broken trust boundaries in modern web stacks  
 - ⚠️ Real-world security risks caused by misconfiguration  
 
----
-
-## 🎥 Video PoC
-
-<p align="center">
-  <img src="[https://private-user-images.githubusercontent.com/21357789/522943093-b64a6ee1-22d5-43e7-ba31-63676f915238.png)" alt="react2shellpoc demo" />
-</p>
-
----
 
 ## 💻 Proof of Concept (CLI View)
 
